@@ -1,0 +1,80 @@
+:root {
+    --dark: #383839;
+    --blue: #394494;
+    --red: #f55656;
+    --green: #1cb981;
+    --grey: #afb7be;
+    --white: white;
+}
+
+* {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.hero {
+    background-color: var(--green);
+    color: var(--dark);
+}
+
+.modal-background {
+    background-color: #38383975; 
+}
+
+.modal-card-head,
+.modal-card-foot {
+    background-color: var(--grey);
+}
+
+.button.success {
+    background-color: var(--blue);
+    color: var(--white);
+}
+
+.list-head{
+    background-color: var(--grey);
+    color: var(--dark);
+}
+
+.active {
+    color: var(--dark);
+}
+
+.completed{
+    text-decoration: line-through;
+    color: var(--grey);
+}
+
+
+#newItem{
+    background-color: var(--blue);
+    color: var(--white)
+}
+
+#taskInput {
+    width: 100%
+}
+
+#taskCompleted {
+    background-color: var(--red);
+    color: var(--white)
+}
+
+#clearAllComp {
+    background-color: var(--red);
+    color: var(--white);
+}
+
+#clearTask {
+    visibility: hidden;
+}
+
+/* @media screen and (max-width: 1026px) {
+    .mr6 {
+        margin-right:0;
+    }
+    .ml6 {
+        margin-left:0;
+    }
+} */
