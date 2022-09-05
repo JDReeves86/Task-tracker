@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.4/css/bulma.min.css">
+    <title>To Do List</title>
+</head>
+<body>
+    <header>
+        <h1>To-do List</h1>
+        <h3>Record some To-dos</h3>
+        <button id="newItem">New Item</button>
+    </header>
+    <body class="container">
+        <div id="taskBody" class="row">
+
+        </div>
+    </body>
+    <footer>
+
+    </footer>
+    <div class="modal" id="modal">
+        <div class="modal-background"></div>
+        <div class="modal-content">
+          <form>
+            <p>What do you want to track completing?</p>
+            <input type="text" placeholder="What do you want to do?" id="taskInput">
+            <button id="saveTaskBtn">Save Task!</button>
+          </form>
+        </div>
+        <button class="modal-close is-large" aria-label="close" id="closeModal"></button>
+      </div>
+    <script src="./script.js" type="text/javascript"></script>
+</body>
+</html>
