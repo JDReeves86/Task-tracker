@@ -13,6 +13,10 @@
     padding: 0;
 }
 
+button {
+    border-radius: 5px;
+}
+
 .hero {
     background-color: var(--green);
     color: var(--dark);
@@ -35,6 +39,7 @@
 .list-head{
     background-color: var(--grey);
     color: var(--dark);
+    border-radius: 5px;
 }
 
 .active {
