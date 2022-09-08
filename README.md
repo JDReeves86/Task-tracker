@@ -19,7 +19,7 @@
 
 <hr>
 
-A simple task tracking app to help you keep up on daily tasks.
+Ever found yourself feeling overwhelmed by the sheer amount of things you have to get done? Struggled to decide where to start on a list of tasks? Worried that you missed something? Task-tracker is a simple task tracking app to help you keep up on daily tasks. Writing them down helps to quiet the anxiety of worrying yoiu missed something, while also giving you a great starting point to get all you need, done! Completing tasks fulfills that positive reward center to encourage youi to be more productive!
 
 <br>
 <br>
@@ -28,7 +28,7 @@ A simple task tracking app to help you keep up on daily tasks.
 
 <hr>
 
-Simply navigate to the live page linked here
+Simply navigate to the live page linked [here](https://jdreeves86.github.io/Task-tracker/)
 
 <br>
 <br>
