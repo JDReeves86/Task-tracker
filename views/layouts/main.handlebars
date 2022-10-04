@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.4/css/bulma.min.css">
+    <link href="../../public/styles.css" rel="stylesheet">
+    <title>To Do List</title>
+</head>
+<body>
+  <header class="hero mb-4">
+    <div class="hero-body">
+      <h1 class="is-size-1 is-size-4-mobile mb-2">To-do List</h1>
+      <h3 class="is-size-3 is-size-6-mobile mb-2">Record some To-dos</h3>
+      <button id="newItem" class="button">New Item</button>
+    </div>
+  </header>
+  <section class="container is-fluid">
+    <div class="columns is-desktop">
+      <div class="column p-0 m-5">
+        <div class="level list-head pl-3">
+          <h3 class="has-text-centered p-1">Active tasks</h3>
+        </div>
+        <div id="taskBody" class="row">
+
+        </div>
+      </div>
+      <div class="column p-0 m-5">
+        <div class="level list-head pl-3">
+          <h3 class="has-text-centered">Completed tasks</h3>
+          <button id="clearAllComp" class="button is-small is-light level-right">Clear Tasks</button>
+        </div>
+        <div id="complTaskBody" class="row">
+
+        </div>
+      </div>
+    </div>
+  </section>
+</body>
+<footer>
+
+</footer>
+  <div class="modal" id="modal">
+    <div class="modal-background"></div>
+    <div class="modal-card">
+      <header class="modal-card-head">
+        <p class="modal-card-title">Enter a task to complete.</p>
+        <button class="delete" aria-label="close" id="closeModal"></button>
+      </header>
+      <section class="modal-card-body">
+        <textarea placeholder="input goes here..." id="taskInput" class="2 lines of textarea"></textarea>
+      </section>
+      <footer class="modal-card-foot">
+        <button class="button success" id="saveTaskBtn">Save changes</button>
+        <button class="button" id="cancelBtn">Cancel</button>
+      </footer>
+    </div>
+  </div>
+  {{!-- <script src="../../public/script.js" type="text/javascript"></script> --}}
+</body>
+</html>

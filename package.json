@@ -1,0 +1,25 @@
+{
+  "name": "bug-free-broccoli",
+  "version": "1.0.0",
+  "description": "A simple task tracker that may hopefull grow in scope over time.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "devStart": "nodemon ./server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/JDReeves86/bug-free-broccoli.git"
+  },
+  "author": "Jacob Reeves",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/JDReeves86/bug-free-broccoli/issues"
+  },
+  "homepage": "https://github.com/JDReeves86/bug-free-broccoli#readme",
+  "dependencies": {
+    "express": "^4.18.1",
+    "express-handlebars": "^6.0.6",
+    "nodemon": "^2.0.20"
+  }
+}
