@@ -3,7 +3,7 @@ const router = express.Router();
 
 router.get('/', async (req, res) => {
     try {
-        res.status(200).render('all')
+        res.render('all')
     } catch(err) {res.status(500).json('errrrorrrrr')}
 })
 

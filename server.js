@@ -7,17 +7,17 @@ const routes = require('./controller/routes');
 
 const path = require('path');
 
-const PORT = process.env.PORT || 3001;
+const PORT = process.env.PORT || 3002;
 
 app.engine('handlebars', handlebars.engine);
 app.set('view engine', 'handlebars');
 
 app.use(express.json());
 app.use(express.urlencoded({ extended: true }));
-app.use(express.static('public'));
+app.use(express.static(path.join(__dirname, 'public')));
 
 app.use(routes)
 
 app.listen(PORT, () => {
-    console.log(`Listening at ${PORT}`)
+    console.log(`Listening at ${PORT} ${__dirname}`)
 })
