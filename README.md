@@ -13,8 +13,7 @@
 4. [License](#Lic)
 5. [Contributing to project](#Contr)
 6. [Testing](#Test)
-7. [Questions](#?)
-8. [Screenshots](#screenshots)
+7. <a href='#?'>Questions</a>
 
 ## Description <a id= 'Descr'></a>
 
@@ -87,23 +86,3 @@ GitHub: [JDReeves86](https://github.com/JDReeves86)
 Email: [JDReeves86@gmail.com](mailto:JDReeves86@gmail.com)
 
 <hr>
-
-<br>
-<br>
-
-### Screenshots <a id='screenshots'></a>
-
-<hr>
-<br>
-
-![myscreenshot](./ss/Screenshot1.png)
-
-<br>
-<br>
-
-![myscreenshot](./ss/Screenshot2.png)
-
-<br>
-<br>
-
-![myscreenshot](./ss/Screenshot3.png)
